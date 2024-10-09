@@ -1,0 +1,65 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('pikachu.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #ff5252;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  #pokemon-search {
+    font-family: 'Quicksand', sans-serif;
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ff5252;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #search-btn {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 15px;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pokemon-info {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .navigation button {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 20px;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  

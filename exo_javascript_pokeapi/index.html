@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex API</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&family=Quicksand:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pokédex</h1>
+
+    <div class="search">
+      <input type="text" id="pokemon-search" placeholder="Entrez un nom ou un numéro">
+      <button id="search-btn">Rechercher</button>
+    </div>
+
+    <div class="pokemon-info">
+      <h2 id="pokemon-name"></h2>
+      <p><strong>Numéro de Pokédex :</strong> <span id="pokemon-id"></span></p>
+      <p><strong>Taille :</strong> <span id="pokemon-height"></span> m</p>
+      <p><strong>Poids :</strong> <span id="pokemon-weight"></span> kg</p>
+      <p><strong>Types :</strong> <span id="pokemon-types"></span></p>
+      <p><strong>Capacités :</strong> <span id="pokemon-abilities"></span></p>
+    </div>
+
+    <div class="navigation">
+      <button id="prev-btn">Précédent</button>
+      <button id="next-btn">Suivant</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
